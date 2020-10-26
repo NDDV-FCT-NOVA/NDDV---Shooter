@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4fa934bfbf14a25b3c5c7a0d0593ec9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   prefab: {fileID: 899504892024920052, guid: 4d346b6be58979e479663ccfac2aa031, type: 3}
 --- !u!1 &3946983671647351137
 GameObject:

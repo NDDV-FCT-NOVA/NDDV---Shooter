@@ -47,6 +47,6 @@ public class EndGameScreen : MonoBehaviour
 
     void ShowEndScreen()
     {
-        endGameObjects.SetActive(true);    
+        _instantiatedEndGameObjects.SetActive(true);    
     }
 }

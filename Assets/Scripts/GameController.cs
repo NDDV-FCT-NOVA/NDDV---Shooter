@@ -10,9 +10,23 @@ public class GameController : MonoBehaviour
     public delegate void GameEnd();
     public static event GameEnd GameEnded;
 
+    private void Awake()
+    {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 60;
+    }
+
     private void Start()
     {
         
+    }
+
+    private void Update()
+    {
+        if (Application.targetFrameRate != 60)
+        {
+            Application.targetFrameRate = 60;
+        }
     }
 
     public static void EndGame()
